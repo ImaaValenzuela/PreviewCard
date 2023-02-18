@@ -1,0 +1,61 @@
+:root{
+    --darkCyan: rgb(60, 128, 103);
+    --cream: rgb(242, 235, 227);
+    --veryDarkBlue: rgb(28, 35, 43);
+    --darkGrayishBlue: rgb(108, 114, 137);
+    --white: rgb(255, 255, 255);
+    --paragraph: 14px;
+    --fraunces: 'Fraunces', serif;
+    --montserrat: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--cream);
+}
+
+.category{
+    font-family: var(--montserrat);
+    text-transform: uppercase;
+    color: var(--darkGrayishBlue);
+    font-size: var(--paragraph);
+}
+
+.title{
+    font-family: var(--fraunces);
+    font-weight: 700;
+    color: var(--veryDarkBlue);
+}
+
+.productDescription{
+    font-family: var(--montserrat);
+    color: var(--darkGrayishBlue);
+    font-size: var(--paragraph);
+}
+
+.price{
+    font-family: var(--fraunces);
+    color: var(--darkCyan);
+
+}
+
+.oldPrice{
+    font-family: var(--fraunces);
+    font-size: var(--paragraph);
+    color: var(--darkGrayishBlue);
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.btn{
+    font-family: var(--montserrat);
+    background-color: var(--darkCyan);
+    color: var(--white);
+    border-radius: 5px;
+    border-color: transparent;
+}
